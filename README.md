@@ -1,4 +1,4 @@
-# musl-hack-dns
+# musl-hack-dns Alpine image
 
 ## MUSL library kube DNS fix
 - https://git.musl-libc.org/cgit/musl/
