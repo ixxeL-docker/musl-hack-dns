@@ -4,11 +4,11 @@ on:
   push:
     paths:
     - resources/**
-    - .github/workflows/gcc-musl-dns-hackyml
+    - .github/workflows/musl-dns-hack-alpine.yaml
   pull_request:
     paths:
     - resources/**
-    - .github/workflows/gcc-musl-dns-hack.yml
+    - .github/workflows/musl-dns-hack-alpine.yaml
   schedule:
   - cron: 0 0 1 * *
 
@@ -21,7 +21,7 @@ env:
   CYAN: \033[1;36m
   BLANK: \033[0m
   WORKING_DIR: resources/
-  IMAGE_NAME: gcc-musl-dns-hack
+  IMAGE_NAME: musl-dns-hack-alpine
   REPOSITORY: ixxel
 
 jobs:
